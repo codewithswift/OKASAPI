@@ -7,7 +7,7 @@
 
 import Foundation
 public class OKASHelper{
-    static let shared = OKASHelper()
+    static public let shared = OKASHelper()
     private init() {}
     
     public func isNil(value: String) -> Bool{
